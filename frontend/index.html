@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aspect-Based Sentiment Analyzer</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Aspect-Based Sentiment Analyzer</h1>
+        <div class="input-section">
+            <label for="textInput">Enter Text:</label>
+            <textarea id="textInput" rows="5"></textarea>
+
+            <label for="aspectInput">Enter Aspect (e.g., service, product):</label>
+            <input type="text" id="aspectInput">
+
+            <button id="analyzeButton">Analyze Sentiment</button>
+        </div>
+
+        <div id="responseSection">
+            <h2>Analysis Result:</h2>
+            <p id="resultText"></p>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
